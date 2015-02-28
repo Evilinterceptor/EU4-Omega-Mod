@@ -25,7 +25,7 @@ country_event = {
         random_country {
 
             limit {
-                ai = no #Because turning a human into the Omega would be unfun.
+                ai = yes #Because turning a human into the Omega would be unfun.
                 #This should prevent the Omega from spawning from a player's subject.
                 NOT = {
                     any_country = {
